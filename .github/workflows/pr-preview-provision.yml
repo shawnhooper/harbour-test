@@ -39,7 +39,7 @@ jobs:
           SUBDOMAIN_NAME: pr-${{ github.event.number }}
           FORGE_PHP_VERSION: php82
           FORGE_DEPLOY_SCRIPT: ${{ vars.FORGE_DEPLOY_SCRIPT }}
-          SLACK_USER_BOT_OAUTH_TOKEN: ${{ secrets.SLACK_USER_BOT_OAUTH_TOKEN }}
+          SLACK_BOT_USER_OAUTH_TOKEN: ${{ secrets.SLACK_BOT_USER_OAUTH_TOKEN }}
           SLACK_CHANNEL: "#shawn-test1"
           SLACK_ANNOUNCEMENT_ENABLED: true
           TEST: 123

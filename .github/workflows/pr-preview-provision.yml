@@ -41,6 +41,7 @@ jobs:
           FORGE_DEPLOY_SCRIPT: ${{ vars.FORGE_DEPLOY_SCRIPT }}
           SLACK_BOT_TOKEN: 'test-token-1'
           SLACK_CHANNEL: "#shawn-test1"
+          TEST: 123
         run: |
           export
           php harbor provision
